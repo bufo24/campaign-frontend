@@ -1,5 +1,5 @@
-const INFURA_API_KEY = "";
-const RINKEBY_PRIVATE_KEY = "";
+const INFURA_API_KEY = process.env.INFURA_API_KEY;
+const RINKEBY_PRIVATE_KEY = process.env.RINKEBY_PRIVATE_KEY;
 
 module.exports = {
   INFURA_API_KEY,
