@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import { Button, Table } from "semantic-ui-react";
 import { Link } from "../../../routes";
 import Layout from "../../../components/Layout";
-import getCampaign from "../../../../campaign/campaign";
+import getCampaign from "../../../campaign/campaign";
 import RequestRow from "../../../components/RequestRow";
 
 class RequestIndex extends Component {

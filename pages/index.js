@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import { Card, Button } from "semantic-ui-react";
 import Layout from "../components/Layout";
-import campaignFactory from "../../campaign/campaignFactory";
+import campaignFactory from "../campaign/campaignFactory";
 import { Link } from "../routes";
 
 class CampaignIndex extends Component {

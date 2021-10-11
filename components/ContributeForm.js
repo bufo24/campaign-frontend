@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import { Form, Input, Button, Message } from "semantic-ui-react";
-import getCampaign from "../../campaign/campaign";
-import web3 from "../../campaign/web3";
+import getCampaign from "../campaign/campaign";
+import web3 from "../campaign/web3";
 import { Router } from "../routes";
 
 class ContributeForm extends Component {

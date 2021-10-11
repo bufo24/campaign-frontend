@@ -1,9 +1,9 @@
 import React, { Component } from "react";
 import Layout from "../../components/Layout";
-import getCampaign from "../../../campaign/campaign";
+import getCampaign from "../../campaign/campaign";
 import { Card, Grid, Button } from "semantic-ui-react";
 import { Link } from "../../routes";
-import web3 from "../../../campaign/web3";
+import web3 from "../../campaign/web3";
 import ContributeForm from "../../components/ContributeForm";
 
 class CampaignShow extends Component {

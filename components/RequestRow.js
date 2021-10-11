@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import { Table, Button } from "semantic-ui-react";
-import web3 from "../../campaign/web3";
-import getCampaign from "../../campaign/campaign";
+import web3 from "../campaign/web3";
+import getCampaign from "../campaign/campaign";
 
 class RequestRow extends Component {
   onApprove = async () => {
